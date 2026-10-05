@@ -1,0 +1,4 @@
+{
+  "model": "JUDGE_MODEL_NAME",
+  "command": "python judge_runner.py --model \"{model}\" --payload-file \"{payload_file}\" --output-dir \"{output_dir}\""
+}

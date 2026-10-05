@@ -1,0 +1,14 @@
+{
+  "models": {
+    "with_skill": {
+      "model": "MODEL_NAME",
+      "use_skill": true,
+      "command": "python agent_runner.py --model \"{model}\" --skill \"{skill_path}\" --prompt-file \"{prompt_file}\" --output-dir \"{output_dir}\""
+    },
+    "without_skill": {
+      "model": "MODEL_NAME",
+      "use_skill": false,
+      "command": "python agent_runner.py --model \"{model}\" --prompt-file \"{prompt_file}\" --output-dir \"{output_dir}\""
+    }
+  }
+}
